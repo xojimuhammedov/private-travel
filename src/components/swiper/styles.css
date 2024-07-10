@@ -1,0 +1,147 @@
+.mySwiper1 {
+  width: 100%;
+  height: 750px;
+}
+.mySwiper2 {
+  width: 100%;
+  height: 650px;
+}
+.Visa-main {
+  width: 100%;
+  height: 650px;
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+.swiper-1 {
+  background-image: url("https://i.natgeofe.com/n/483e77f7-f52b-432a-a0f5-d9cd1489a95a/madinat-jumeirah-dubai-uae_3x2.jpg");
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: white;
+  padding-top: 200px;
+}
+.swiper-1 h2 {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+.swiper-1 h1 {
+  font-size: 50px;
+}
+.swiper-2 {
+  background-image: url("https://redseahotels.com/wp-content/uploads/2023/02/Sharm-El-Sheikh-is-a-holiday-region-with-the-all-inclusive-resorts-by-red-sea-hotels.jpg");
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: white;
+  padding-top: 200px;
+}
+.swiper-2 h2 {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+.swiper-2 h1 {
+  font-size: 50px;
+}
+.swiper-3 {
+  background-image: url("https://www.civitatis.com/blog/wp-content/uploads/2024/03/shutterstock_291252509-1920x1248.jpg");
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: white;
+  padding-top: 200px;
+}
+.swiper-3 h2 {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+.swiper-3 h1 {
+  font-size: 50px;
+}
+.swiper-4 {
+  background-image: url("https://cdn.budgetyourtrip.com/images/photos/headerphotos/medium/turkey_antalya.jpg");
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: white;
+  padding-top: 200px;
+}
+.swiper-4 h2 {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+.swiper-4 h1 {
+  font-size: 50px;
+}
+.swiper-button {
+  background-color: #22b3c1;
+  color: white;
+  border: none;
+  font-size: 15px;
+  border-radius: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 47px;
+  margin-top: 20px;
+}
+.more-info {
+  display: flex;
+  justify-content: center;
+  margin-top: 130px;
+}
+.more-info .row {
+  background-color: white;
+  width: 80%;
+  height: 104px;
+  display: flex;
+  justify-content: center;
+  border-radius: 70px;
+  align-items: center;
+}
+.more-info .row .info-1 {
+  display: flex;
+  align-items: center;
+  /* background-color: red; */
+  width: 240px;
+  height: 100%;
+  text-align: center;
+}
+.more-info h4 {
+  text-align: center;
+  background-color: blue;
+  width: 0px;
+  color: black;
+}
+.more-info .info-1 i svg {
+  font-size: 20px;
+  color: #22b3c1;
+}
+.more-info .info-1 i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  height: 60px;
+  width: 60px;
+  border: 1px solid #22b3c1;
+  margin-right: 20px;
+}
+.over-span {
+  width: 80px;
+  display: inline-flex;
+}
+.info-button {
+  margin-left: 60px;
+  width: 157px;
+  height: 47px;
+  border-radius: 30px;
+  color: white;
+  border: none;
+  background-color: #22b3c1;
+}
