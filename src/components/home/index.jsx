@@ -16,8 +16,8 @@ export default function index() {
         <Header />
         <Swiper />
         <Main />
-        <Swip />
-        <Visa />
+        {/* <Swip /> */}
+        {/* <Visa /> */}
         <Section />
         <Routes>
           <Route path="/" element={<Contact />} />

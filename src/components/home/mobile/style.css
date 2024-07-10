@@ -48,7 +48,6 @@
     display: flex;
     align-items: center;
     position: relative;
-    top: 10px;
   }
 
   .Nav .na img {
@@ -137,7 +136,8 @@
     height: 100%;
   }
   .section-cards-items img {
-    width: 100%;
+    width: 100% !important;
+    object-fit: cover;
   }
   .section-text {
     margin: 0px;
@@ -207,6 +207,7 @@
   .footer-row h2 {
     width: 100%;
     text-align: center;
+    font-size: 30px;
   }
   .col-lg-8 {
     width: 100%;
@@ -243,5 +244,28 @@
     text-align: center;
     padding-left: 20px;
     margin-bottom: 20px;
+  }
+}
+
+.mobile-gallery-image {
+  display: none;
+}
+
+@media (max-width: 550px) {
+  .mobile-gallery {
+    display: none;
+  }
+  .mobile-gallery-image {
+    display: block;
+  }
+  .mobile-gallery-list {
+    display: flex;
+    flex-wrap: wrap;
+    /* grid-template-columns: repeat(2, minmax(100%, 250px)); */
+  }
+  .gallery-image {
+    width: 50%;
+    object-fit: cover;
+    height: 250px;
   }
 }

@@ -5,6 +5,17 @@ import { FaHouse } from "react-icons/fa6";
 import { useTranslation } from "react-i18next";
 import Tashkent from "../img/tashkent.jpg";
 import Samarkand from "../img/samarkand.jpg";
+
+import OneImage from "../img/IMG_5525.JPG";
+import TwoImage from "../img/IMG_5526.JPG";
+import ThreeImage from "../img/IMG_5527.JPG";
+import FourImage from "../img/IMG_5531.JPG";
+import FiveImage from "../img/IMG_5533.JPG";
+import SixImage from "../img/IMG_5537.JPG";
+import SevenImage from "../img/IMG_5538.JPG";
+import EightImage from "../img/IMG_5539.JPG";
+import NineImage from "../img/IMG_5540.JPG";
+
 export default function Section() {
   const { t } = useTranslation();
   return (
@@ -24,11 +35,11 @@ export default function Section() {
                   <h4>{t("cheap")}</h4>
                   <span>{t("world")}</span>
                 </div>
-                <div className="content-button">
-                  <button>{t("know")}</button>
-                </div>
               </div>
               <p>{t("temir_p")}</p>
+              <div className="content-button">
+                <button>{t("know")}</button>
+              </div>
             </div>
           </div>
 
@@ -43,11 +54,11 @@ export default function Section() {
                   <h4>{t("avia")}</h4>
                   <span>{t("world")}</span>
                 </div>
-                <div className="content-button">
-                  <button>{t("know")}</button>
-                </div>
               </div>
               <p>{t("avia_p")}</p>
+              <div className="content-button">
+                <button>{t("know")}</button>
+              </div>
             </div>
           </div>
 
@@ -61,12 +72,11 @@ export default function Section() {
                   <h4>Tashkent City Tour</h4>
                   <span>Uzbekistan</span>
                 </div>
-                <div className="content-button">
-                  <button>{t("know")}</button>
-                </div>
               </div>
               <p>{t("dubai_p")}</p>
-
+              <div className="content-button">
+                <button>{t("know")}</button>
+              </div>
               <div className="new-section-item">
                 <p>
                   <i>
@@ -95,14 +105,12 @@ export default function Section() {
                   xmlns="http://www.w3.org/2000/svg"
                   width="30"
                   height="10"
-                  viewBox="0 0 46 16"
-                >
+                  viewBox="0 0 46 16">
                   <path
                     id="Path_10"
                     data-name="Path 10"
                     d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z"
-                    transform="translate(30)"
-                  ></path>
+                    transform="translate(30)"></path>
                 </svg>
               </button>
             </div>
@@ -116,12 +124,11 @@ export default function Section() {
                   <h4>Day Tour to Samarkand</h4>
                   <span>Uzbekistan</span>
                 </div>
-                <div className="content-button">
-                  <button>{t("know")}</button>
-                </div>
               </div>
               <p>{t("sam_p")}</p>
-
+              <div className="content-button">
+                <button>{t("know")}</button>
+              </div>
               <div className="new-section-item">
                 <p>
                   <i>
@@ -150,14 +157,12 @@ export default function Section() {
                   xmlns="http://www.w3.org/2000/svg"
                   width="30"
                   height="10"
-                  viewBox="0 0 46 16"
-                >
+                  viewBox="0 0 46 16">
                   <path
                     id="Path_10"
                     data-name="Path 10"
                     d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z"
-                    transform="translate(30)"
-                  ></path>
+                    transform="translate(30)"></path>
                 </svg>
               </button>
             </div>
@@ -174,12 +179,11 @@ export default function Section() {
                   <h4>Khiva / Urgench</h4>
                   <span>Uzbekistan</span>
                 </div>
-                <div className="content-button">
-                  <button>{t("know")}</button>
-                </div>
               </div>
               <p>{t("khiva_p")}</p>
-
+              <div className="content-button">
+                <button>{t("know")}</button>
+              </div>
               <div className="new-section-item">
                 <p>
                   <i>
@@ -208,14 +212,12 @@ export default function Section() {
                   xmlns="http://www.w3.org/2000/svg"
                   width="30"
                   height="10"
-                  viewBox="0 0 46 16"
-                >
+                  viewBox="0 0 46 16">
                   <path
                     id="Path_10"
                     data-name="Path 10"
                     d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z"
-                    transform="translate(30)"
-                  ></path>
+                    transform="translate(30)"></path>
                 </svg>
               </button>
             </div>
@@ -232,12 +234,11 @@ export default function Section() {
                   <h4>Qoraqolpoqiston / Nukus</h4>
                   <span>Uzbekistan</span>
                 </div>
-                <div className="content-button">
-                  <button>{t("know")}</button>
-                </div>
               </div>
               <p>{t("q_p")}</p>
-
+              <div className="content-button">
+                <button>{t("know")}</button>
+              </div>
               <div className="new-section-item">
                 <p>
                   <i>
@@ -266,14 +267,12 @@ export default function Section() {
                   xmlns="http://www.w3.org/2000/svg"
                   width="30"
                   height="10"
-                  viewBox="0 0 46 16"
-                >
+                  viewBox="0 0 46 16">
                   <path
                     id="Path_10"
                     data-name="Path 10"
                     d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z"
-                    transform="translate(30)"
-                  ></path>
+                    transform="translate(30)"></path>
                 </svg>
               </button>
             </div>
@@ -282,7 +281,7 @@ export default function Section() {
         <div className="locations">
           <h1>{t("locations")}</h1>
           <p>{t("discover")}</p>
-          <div className="wrapper">
+          <div className="wrapper mobile-gallery">
             <div className="containerr">
               <input type="radio" name="slide" id="c1" defaultChecked />
               <label htmlFor="c1" className="card1 card">
@@ -376,6 +375,21 @@ export default function Section() {
                 </div>
               </label>
             </div>
+          </div>
+          <div className="wrapper mobile-gallery-image">
+            {/* <div className="container"> */}
+            <div className="mobile-gallery-list">
+              <img className="gallery-image" src={OneImage} alt="" />
+              <img className="gallery-image" src={TwoImage} alt="" />
+              <img className="gallery-image" src={ThreeImage} alt="" />
+              <img className="gallery-image" src={FourImage} alt="" />
+              <img className="gallery-image" src={FiveImage} alt="" />
+              <img className="gallery-image" src={SixImage} alt="" />
+              <img className="gallery-image" src={SevenImage} alt="" />
+              <img className="gallery-image" src={EightImage} alt="" />
+              <img className="gallery-image" src={NineImage} alt="" />
+            </div>
+            {/* </div> */}
           </div>
         </div>
       </div>

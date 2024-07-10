@@ -25,14 +25,9 @@ export default function App() {
           clickable: true,
         }}
         modules={[EffectFade, Navigation, Pagination]}
-        className="mySwiper1"
-      >
-        <SwiperSlide className="swiper-1">
-          <h2>{t("take")}</h2>
-          <h1>Dubai</h1>
-          <button className="swiper-button">{t("borish")}</button>
-        </SwiperSlide>
-        <SwiperSlide className="swiper-2">
+        className="mySwiper1">
+        <SwiperSlide className="swiper-1"></SwiperSlide>
+        {/* <SwiperSlide className="swiper-2">
           <h2>{t("take")}</h2>
           <h1>Sharm El-Sheikh</h1>
           <button className="swiper-button">{t("borish")}</button>
@@ -46,7 +41,7 @@ export default function App() {
           <h2>{t("take")}</h2>
           <h1>Antalya</h1>
           <button className="swiper-button">{t("borish")}</button>
-        </SwiperSlide>
+        </SwiperSlide> */}
       </Swiper>
     </>
   );
