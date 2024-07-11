@@ -1,11 +1,66 @@
-import React from "react";
+import React, { useState } from "react";
 import { MdOutlineLocalPhone } from "react-icons/md";
 import { CgMail } from "react-icons/cg";
 import { FaLocationArrow } from "react-icons/fa6";
 import Footer from "./footer";
 import { useTranslation } from "react-i18next";
+import { toast } from "react-toastify";
 export default function Contact() {
   const { t } = useTranslation();
+
+  const [nameValue, setNameValue] = useState("");
+  const [numberValue, setNumberValue] = useState("");
+  const [textValue, setTextValue] = useState("");
+
+  function changeNumber(item) {
+    setNumberValue(item);
+  }
+
+  function changeName(item) {
+    setNameValue(item);
+  }
+  function changeText(item) {
+    setTextValue(item);
+  }
+
+  const handleClear = () => {
+    setNameValue(null);
+    setNumberValue(null);
+    setTextValue(null);
+  };
+
+  let bot = {
+    TOKEN: "6923751684:AAGXHTr_fJQFkSGQUUGamMzmWrO2Ubd2RjU",
+    chatID: "-1002057999982",
+    message: `
+        Assalomu alaykum sizga yangi xabar!%0A
+        %0AIsmi 👤: ${nameValue}; 
+        %0ATelefon raqami ☎: ${numberValue};
+        %0ASizga xabar ☎: ${textValue};`,
+  };
+
+  function sendMessage(e) {
+    e.preventDefault();
+    if (nameValue === "") {
+    } else if (numberValue === "") {
+    } else {
+      fetch(
+        `https://api.telegram.org/bot${bot.TOKEN}/sendMessage?chat_id=${bot.chatID}&text=${bot.message} `,
+        {
+          method: "GET",
+        }
+      ).then(
+        (success) => {
+          if (success.status === 200) {
+            handleClear();
+          }
+          window.location.reload();
+          toast.success("Sizning xabaringiz muvaffaqiyatli yuborildi!");
+        },
+        (error) => {}
+      );
+    }
+  }
   return (
     <>
       <div className="Contact">
@@ -51,8 +106,7 @@ export default function Contact() {
               style={{ border: 0, width: "100%", height: "500px" }}
               allowFullScreen=""
               loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
+              referrerPolicy="no-referrer-when-downgrade"></iframe>
           </div>
           <div className="connect">
             <h1>{t("joy")}</h1>
@@ -60,86 +114,34 @@ export default function Contact() {
               <div className="cold">
                 <fieldset>
                   <label htmlFor="">{t("ism")}</label> <br />
-                  <input type="text" />
+                  <input
+                    value={nameValue}
+                    onChange={(e) => changeName(e.target.value)}
+                    type="text"
+                  />
                 </fieldset>
               </div>
               <div className="cold">
                 <fieldset>
                   <label htmlFor="">{t("telefon")}</label>
-                  <input type="text" />
-                </fieldset>
-              </div>
-              <div className="cold">
-                <fieldset>
-                  <label htmlFor="">{t("savol_kiwi")}</label>
-                  <select name="" id="">
-                    <option value="">ex. 3 or 2 or 5</option>
-                    <option value="">1</option>
-                    <option value="">2</option>
-                    <option value="">3</option>
-                    <option value="">4</option>
-                    <option value="">5</option>
-                  </select>
-                </fieldset>
-              </div>
-              <div className="cold">
-                <fieldset>
-                  <label htmlFor="">{t("flight_date")} </label>
                   <input
-                    type="date"
-                    id="nameData"
-                    name="date"
-                    class="date"
-                    required=""
-                  ></input>
+                    value={numberValue}
+                    onChange={(e) => changeNumber(e.target.value)}
+                    type="number"
+                  />
                 </fieldset>
               </div>
-              <div className="cold-1">
+              <div className="cold">
                 <fieldset>
-                  <label for="chooseDestination" class="form-label">
-                    {t("destination")}
-                  </label>
-                  <select
-                    name="Destination"
-                    class="form-select"
-                    aria-label="Default select example"
-                    id="chooseCategory"
-                    onchange="this.form.click()"
-                  >
-                    <option selected="">Antalya</option>
-                    <option value="Istanbul">Istanbul</option>
-                    <option value="Dubai">Dubai</option>
-                    <option value="Sharm El-Sheikh">Sharm El-Sheikh</option>
-                    <option value="Kuala Lumpur">Kuala Lumpur</option>
-                    <option value="Kanada">Canada</option>
-                    <option value="England">England</option>
-                  </select>
-                </fieldset>
-              </div>
-              <div className="cold-1">
-                <fieldset>
-                  <label for="chooseDestination" className="form-label">
-                    {t("choose_visa")}
-                  </label>
-                  <select
-                    name="Destination"
-                    class="form-select"
-                    aria-label="Default select example"
-                    id="chooseCategory"
-                    onchange="this.form.click()"
-                  >
-                    <option selected="">Antalya</option>
-                    <option value="Istanbul">Istanbul</option>
-                    <option value="Dubai">Dubai</option>
-                    <option value="Sharm El-Sheikh">Sharm El-Sheikh</option>
-                    <option value="Kuala Lumpur">Kuala Lumpur</option>
-                    <option value="Kanada">Canada</option>
-                    <option value="England">England</option>
-                  </select>
+                  <label htmlFor="">{t("Message")}</label>
+                  <textarea
+                    value={textValue}
+                    onChange={(e) => changeText(e.target.value)}
+                  />
                 </fieldset>
               </div>
             </div>
-            <button>{t("making")}</button>
+            <button onClick={sendMessage}>{t("making")}</button>
           </div>
         </div>
         <Footer />

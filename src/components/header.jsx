@@ -27,7 +27,7 @@ export default function Header() {
                 <Link to="/">{t("home")}</Link>
               </li>
               <li>
-                <Link to="/">{t("About_us")}</Link>
+                <Link to="/about">{t("About_us")}</Link>
               </li>
               <li>
                 <Link to="/">{t("Tours")}</Link>

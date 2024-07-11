@@ -7,6 +7,7 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import "./style.css";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 // import img from "../img/logo.svg";
 // import img1 from "../img/Group3.svg";
 // import img2 from "../img/hero-phones.png";
@@ -36,10 +37,12 @@ export default function TransitionsModal() {
           <div className="Nav">
             <div className="na">
               <div className="img-mobie">
-                <img
-                  src="https://zamontour.uz/assets/images/zamon.svg"
-                  alt=""
-                />
+                <Link to={"/"}>
+                  <img
+                    src="https://zamontour.uz/assets/images/zamon.svg"
+                    alt=""
+                  />
+                </Link>
               </div>
 
               <Button onClick={handleOpen} className="btn-mobile">
@@ -63,15 +66,13 @@ export default function TransitionsModal() {
               backdrop: {
                 timeout: 500,
               },
-            }}
-          >
+            }}>
             <Fade in={open}>
               <Box sx={style}>
                 <Typography
                   id="transition-modal-description"
                   className="containert"
-                  sx={{ mt: 2 }}
-                >
+                  sx={{ mt: 2 }}>
                   <ul>
                     <li>
                       <a href="/">Home</a>
@@ -92,8 +93,7 @@ export default function TransitionsModal() {
                       {" "}
                       <select
                         onChange={(e) => handleChangeLanguage(e.target.value)}
-                        className="language"
-                      >
+                        className="language">
                         <option value="uz" to="/">
                           UZ
                         </option>

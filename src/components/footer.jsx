@@ -25,7 +25,7 @@ export default function Footer() {
           <div className="end-row">
             <div class="col-lg-12">
               <p>
-                Copyright © 2024 <a href="/">Zamon Business Tour.</a> All rights
+                Copyright © 2024 <a href="/">Samandar Travel Tour.</a> All rights
                 reserved.
               </p>
             </div>

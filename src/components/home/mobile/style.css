@@ -172,7 +172,6 @@
   }
   .row-connect {
     display: flex;
-    flex-wrap: wrap-reverse;
     justify-content: center;
   }
   .cold input {
@@ -239,7 +238,7 @@
   }
   .language {
     border: none;
-    background: none;
+    /* background: none; */
     color: black;
     text-align: center;
     padding-left: 20px;
@@ -267,5 +266,8 @@
     width: 50%;
     object-fit: cover;
     height: 250px;
+  }
+  .cold textarea {
+    width: 88%;
   }
 }

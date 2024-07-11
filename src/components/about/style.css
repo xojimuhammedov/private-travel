@@ -1,0 +1,40 @@
+.about {
+  padding: 30px 10px;
+}
+
+.about-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-image {
+  height: 550px;
+  object-fit: cover;
+}
+
+.about-title {
+  font-size: 35px;
+  line-height: 40px;
+  margin-top: 30px;
+}
+
+.about-text {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  color: black;
+  margin: 15px 0;
+  width: 800px;
+}
+
+@media (max-width: 768px) {
+  .about-text {
+    width: 100%;
+    font-size: 16px;
+  }
+  .about-title {
+    font-size: 25px;
+    line-height: 30px;
+  }
+}
