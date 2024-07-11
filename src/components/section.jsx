@@ -15,6 +15,13 @@ import SixImage from "../img/IMG_5537.JPG";
 import SevenImage from "../img/IMG_5538.JPG";
 import EightImage from "../img/IMG_5539.JPG";
 import NineImage from "../img/IMG_5540.JPG";
+import TenImage from "../img/IMG_5374.JPG";
+import ElevenImage from "../img/IMG_5524.JPG";
+import TwelfImage from "../img/IMG_5530.JPG";
+import ThirsteenImage from "../img/IMG_5532.JPG";
+import FourteenImage from "../img/IMG_5545.JPG";
+import FiveteenImage from "../img/IMG_5547.JPG";
+import SixteenImage from "../img/IMG_5548.JPG";
 
 export default function Section() {
   const { t } = useTranslation();
@@ -377,7 +384,6 @@ export default function Section() {
             </div>
           </div>
           <div className="wrapper mobile-gallery-image">
-            {/* <div className="container"> */}
             <div className="mobile-gallery-list">
               <img className="gallery-image" src={OneImage} alt="" />
               <img className="gallery-image" src={TwoImage} alt="" />
@@ -388,8 +394,14 @@ export default function Section() {
               <img className="gallery-image" src={SevenImage} alt="" />
               <img className="gallery-image" src={EightImage} alt="" />
               <img className="gallery-image" src={NineImage} alt="" />
+              <img className="gallery-image" src={TenImage} alt="" />
+              <img className="gallery-image" src={ElevenImage} alt="" />
+              <img className="gallery-image" src={TwelfImage} alt="" />
+              <img className="gallery-image" src={ThirsteenImage} alt="" />
+              <img className="gallery-image" src={FourteenImage} alt="" />
+              <img className="gallery-image" src={FiveteenImage} alt="" />
+              <img className="gallery-image" src={SixteenImage} alt="" />
             </div>
-            {/* </div> */}
           </div>
         </div>
       </div>
