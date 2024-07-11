@@ -41,8 +41,7 @@ export default function Header() {
             <ul className="menu-lang">
               <select
                 onChange={(e) => handleChangeLanguage(e.target.value)}
-                className="language"
-              >
+                className="language">
                 <option value="uz" to="/">
                   UZ
                 </option>
@@ -57,31 +56,34 @@ export default function Header() {
               </select>
 
               <li>
-                <Link className="head-icon" to={"https://wa.link/7ec3x6"}>
+                <a
+                  target="_blank"
+                  className="head-icon"
+                  href={"https://wa.link/7ec3x6"}>
                   <i>
                     <IoLogoWhatsapp />
                   </i>
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
+                <a
                   className="head-icon"
-                  to={" https://www.facebook.com/samanuz13?mibextid=LQQJ4d"}
-                >
+                  target="_blank"
+                  href={" https://www.facebook.com/samanuz13?mibextid=LQQJ4d"}>
                   <i>
                     <FaFacebook />
                   </i>
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
+                <a
                   className="head-icon"
-                  to={"https://www.instagram.com/samanuz13"}
-                >
+                  target="_blank"
+                  href={"https://www.instagram.com/samanuz13"}>
                   <i>
                     <RiInstagramFill />
                   </i>
-                </Link>
+                </a>
               </li>
             </ul>
           </div>

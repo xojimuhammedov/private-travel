@@ -1,7 +1,4 @@
 import React from "react";
-import { IoMdPerson } from "react-icons/io";
-import { TbWorld } from "react-icons/tb";
-import { FaHouse } from "react-icons/fa6";
 import { useTranslation } from "react-i18next";
 import Tashkent from "../img/tashkent.jpg";
 import Samarkand from "../img/samarkand.jpg";
