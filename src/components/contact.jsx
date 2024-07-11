@@ -131,7 +131,7 @@ export default function Contact() {
                   />
                 </fieldset>
               </div>
-              <div className="cold">
+              <div className="cold-1">
                 <fieldset>
                   <label htmlFor="">{t("Message")}</label>
                   <textarea

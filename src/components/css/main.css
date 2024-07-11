@@ -254,6 +254,7 @@ hr {
   height: 267px;
   margin: 0 20px 0px 0;
   border-radius: 30px;
+  object-fit: cover;
 }
 .content-main {
   display: flex;
@@ -694,7 +695,7 @@ hr {
   margin-bottom: 30px;
   margin-top: 10px;
 }
-.cold textarea {
+.cold-1 textarea {
   width: 100%;
   height: 100px;
   background-color: transparent;

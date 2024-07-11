@@ -84,42 +84,6 @@ export default function Section() {
               <div className="content-button">
                 <button>{t("know")}</button>
               </div>
-              <div className="new-section-item">
-                <p>
-                  <i>
-                    <IoMdPerson />
-                  </i>
-                  {t("odam")}
-                </p>
-                <p>
-                  <i>
-                    <TbWorld />
-                  </i>
-                  334.8 km²
-                </p>
-                <p>
-                  <i>
-                    <FaHouse />
-                  </i>
-                  $150.000
-                </p>
-              </div>
-
-              <button className="cta">
-                <span className="hover-underline-animation">{t("qiziq")}</span>
-                <svg
-                  id="arrow-horizontal"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="30"
-                  height="10"
-                  viewBox="0 0 46 16">
-                  <path
-                    id="Path_10"
-                    data-name="Path 10"
-                    d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z"
-                    transform="translate(30)"></path>
-                </svg>
-              </button>
             </div>
           </div>
 
@@ -136,42 +100,6 @@ export default function Section() {
               <div className="content-button">
                 <button>{t("know")}</button>
               </div>
-              <div className="new-section-item">
-                <p>
-                  <i>
-                    <IoMdPerson />
-                  </i>
-                  {t("sam_odam")}
-                </p>
-                <p>
-                  <i>
-                    <TbWorld />
-                  </i>
-                  120.000 km²
-                </p>
-                <p>
-                  <i>
-                    <FaHouse />
-                  </i>
-                  $250.000
-                </p>
-              </div>
-
-              <button className="cta">
-                <span className="hover-underline-animation">{t("qiziq")}</span>
-                <svg
-                  id="arrow-horizontal"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="30"
-                  height="10"
-                  viewBox="0 0 46 16">
-                  <path
-                    id="Path_10"
-                    data-name="Path 10"
-                    d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z"
-                    transform="translate(30)"></path>
-                </svg>
-              </button>
             </div>
           </div>
 
@@ -191,42 +119,6 @@ export default function Section() {
               <div className="content-button">
                 <button>{t("know")}</button>
               </div>
-              <div className="new-section-item">
-                <p>
-                  <i>
-                    <IoMdPerson />
-                  </i>
-                  {t("khiva_odam")}
-                </p>
-                <p>
-                  <i>
-                    <TbWorld />
-                  </i>
-                  6.05 km²
-                </p>
-                <p>
-                  <i>
-                    <FaHouse />
-                  </i>
-                  $100{" "}
-                </p>
-              </div>
-
-              <button className="cta">
-                <span className="hover-underline-animation">{t("qiziq")}</span>
-                <svg
-                  id="arrow-horizontal"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="30"
-                  height="10"
-                  viewBox="0 0 46 16">
-                  <path
-                    id="Path_10"
-                    data-name="Path 10"
-                    d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z"
-                    transform="translate(30)"></path>
-                </svg>
-              </button>
             </div>
           </div>
 
@@ -246,42 +138,6 @@ export default function Section() {
               <div className="content-button">
                 <button>{t("know")}</button>
               </div>
-              <div className="new-section-item">
-                <p>
-                  <i>
-                    <IoMdPerson />
-                  </i>
-                  {t("q_odam")}
-                </p>
-                <p>
-                  <i>
-                    <TbWorld />
-                  </i>
-                  166.6 km²
-                </p>
-                <p>
-                  <i>
-                    <FaHouse />
-                  </i>
-                  $320.000
-                </p>
-              </div>
-
-              <button className="cta">
-                <span className="hover-underline-animation">{t("qiziq")}</span>
-                <svg
-                  id="arrow-horizontal"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="30"
-                  height="10"
-                  viewBox="0 0 46 16">
-                  <path
-                    id="Path_10"
-                    data-name="Path 10"
-                    d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z"
-                    transform="translate(30)"></path>
-                </svg>
-              </button>
             </div>
           </div>
         </div>
