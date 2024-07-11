@@ -15,11 +15,7 @@ export default function Header() {
       <div className="container">
         <div className="header-top">
           <div className="header-logo">
-            <img
-              src="https://zamontour.uz/assets/images/zamon.svg"
-              alt="logo"
-              width={"159px"}
-            />
+            <Link to="/">SamanTrip</Link>
           </div>
           <div className="navbar-menu">
             <ul className="nav">

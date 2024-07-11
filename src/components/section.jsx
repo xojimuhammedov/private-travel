@@ -19,16 +19,17 @@ import ThirsteenImage from "../img/IMG_5532.JPG";
 import FourteenImage from "../img/IMG_5545.JPG";
 import FiveteenImage from "../img/IMG_5547.JPG";
 import SixteenImage from "../img/IMG_5548.JPG";
+import { Link } from "react-router-dom";
 
 export default function Section() {
   const { t } = useTranslation();
   return (
     <div className="Section">
       <div className="container">
-        <h1>{t("tickets")}</h1>
-        <p className="section-p">{t("way")}</p>
+        {/* <h1>{t("tickets")}</h1> */}
+        {/* <p className="section-p">{t("way")}</p> */}
         <div className="section-cards">
-          <div className="section-cards-items">
+          {/* <div className="section-cards-items">
             <img
               src="https://zamontour.uz/assets/images/afr.jpg"
               alt="Railway adventure"
@@ -64,7 +65,7 @@ export default function Section() {
                 <button>{t("know")}</button>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <h1 className="section-h1">{t("city")}</h1>
           <p className="section-v">{t("city_p")}</p>
@@ -79,7 +80,7 @@ export default function Section() {
               </div>
               <p>{t("dubai_p")}</p>
               <div className="content-button">
-                <button>{t("know")}</button>
+                <Link to={"/more-tashkent"}>{t("know")}</Link>
               </div>
             </div>
           </div>
@@ -95,7 +96,7 @@ export default function Section() {
               </div>
               <p>{t("sam_p")}</p>
               <div className="content-button">
-                <button>{t("know")}</button>
+                <Link to={"/more-samarkand"}>{t("know")}</Link>
               </div>
             </div>
           </div>
@@ -114,7 +115,7 @@ export default function Section() {
               </div>
               <p>{t("khiva_p")}</p>
               <div className="content-button">
-                <button>{t("know")}</button>
+                <Link to={"/more-khiva"}>{t("know")}</Link>
               </div>
             </div>
           </div>
@@ -133,7 +134,7 @@ export default function Section() {
               </div>
               <p>{t("q_p")}</p>
               <div className="content-button">
-                <button>{t("know")}</button>
+                <Link to={"/more-nukus"}>{t("know")}</Link>
               </div>
             </div>
           </div>

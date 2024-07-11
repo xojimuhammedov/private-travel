@@ -1,0 +1,120 @@
+.More-component {
+  background-image: url(../../img/about.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.more-center h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.more-center h3 {
+  margin-bottom: 50px;
+  text-align: center;
+}
+/* //////// Card ////// */
+.more-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.more-box p {
+  margin: 0;
+}
+.more-box p:not(:last-child) {
+  margin-bottom: 1.5em;
+}
+.more-box .card {
+  width: 200px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.45);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(15px);
+}
+.more-box .card-footer {
+  font-size: 0.65em;
+  color: #446;
+}
+/* ///// BOTTOM ///// */
+
+.more-comp-bottom {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  /* background-color: red; */
+  justify-content: center;
+}
+.vertical-menu {
+  width: 200px;
+  margin-right: 40px;
+}
+
+.vertical-menu a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc;
+}
+
+.vertical-menu a.active {
+  background-color: #1a3a5a;
+  color: white;
+}
+.more-comp-right {
+  /* background-color: yellow; */
+  width: 600px;
+}
+.more-comp-right h1 {
+  text-align: center;
+}
+.img-more {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+.more-comp-right a {
+  color: rgb(0, 7, 98);
+  text-decoration: solid;
+}
+
+.more-box img {
+  width: 50px;
+}
+.more-box .card p {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .more-travel-about {
+    padding: 20px 10px;
+  }
+  .more-comp-right{
+    width: 100%;
+  }
+  .img-more{
+    padding: 0 10px;
+  }
+  .more-comp-right h1{
+    font-size: 25px;
+    padding: 30px 0;
+  }
+  .More-component{
+    padding-bottom: 260px;
+  }
+}

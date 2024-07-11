@@ -26,7 +26,7 @@ export default function TransitionsModal() {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
-  const { i18n } = useTranslation();
+  const { i18n, t } = useTranslation();
   const handleChangeLanguage = (lng) => {
     i18n.changeLanguage(lng);
   };
@@ -37,12 +37,7 @@ export default function TransitionsModal() {
           <div className="Nav">
             <div className="na">
               <div className="img-mobie">
-                <Link to={"/"}>
-                  <img
-                    src="https://zamontour.uz/assets/images/zamon.svg"
-                    alt=""
-                  />
-                </Link>
+                <Link to="/">SamanTrip</Link>
               </div>
 
               <Button onClick={handleOpen} className="btn-mobile">
@@ -75,19 +70,16 @@ export default function TransitionsModal() {
                   sx={{ mt: 2 }}>
                   <ul>
                     <li>
-                      <a href="/">Home</a>
+                      <Link to="/">{t("home")}</Link>
                     </li>
                     <li>
-                      <a href="/">About</a>
+                      <Link to="/about">{t("About_us")}</Link>
                     </li>
                     <li>
-                      <a href="/">Contact</a>
+                      <Link to="/">{t("Tours")}</Link>
                     </li>
                     <li>
-                      <a href="/">Blog</a>
-                    </li>
-                    <li>
-                      <a href="/">Careers</a>
+                      <Link to="/">{t("Contacts")}</Link>
                     </li>
                     <div className="menu-langg">
                       {" "}

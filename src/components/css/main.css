@@ -21,6 +21,7 @@ hr {
   background: transparent;
   display: flex;
   padding: 0px 30px;
+  align-items: center;
 }
 .navbar-menu {
   display: flex;
