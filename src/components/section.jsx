@@ -80,7 +80,9 @@ export default function Section() {
               </div>
               <p>{t("dubai_p")}</p>
               <div className="content-button">
-                <Link to={"/more-tashkent"}>{t("know")}</Link>
+                <Link className="content-link" to={"/more-tashkent"}>
+                  {t("know")}
+                </Link>
               </div>
             </div>
           </div>
@@ -96,7 +98,9 @@ export default function Section() {
               </div>
               <p>{t("sam_p")}</p>
               <div className="content-button">
-                <Link to={"/more-samarkand"}>{t("know")}</Link>
+                <Link className="content-link" to={"/more-samarkand"}>
+                  {t("know")}
+                </Link>
               </div>
             </div>
           </div>
@@ -115,7 +119,9 @@ export default function Section() {
               </div>
               <p>{t("khiva_p")}</p>
               <div className="content-button">
-                <Link to={"/more-khiva"}>{t("know")}</Link>
+                <Link className="content-link" to={"/more-khiva"}>
+                  {t("know")}
+                </Link>
               </div>
             </div>
           </div>
@@ -134,7 +140,9 @@ export default function Section() {
               </div>
               <p>{t("q_p")}</p>
               <div className="content-button">
-                <Link to={"/more-nukus"}>{t("know")}</Link>
+                <Link className="content-link" to={"/more-nukus"}>
+                  {t("know")}
+                </Link>
               </div>
             </div>
           </div>

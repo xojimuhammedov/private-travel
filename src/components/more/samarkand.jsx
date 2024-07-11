@@ -10,20 +10,6 @@ const Samarkand = () => {
       <div className="cotainer">
         {" "}
         <div className="more-comp-bottom">
-          {/* <div class="vertical-menu">
-            <Link to={"#"} class="active">
-              Home
-            </Link>
-            <Link to={"#"}>Link 1</Link>
-            <Link to={"#"}>Link 2</Link>
-            <Link to={"#"}>Link 3</Link>
-            <Link to={"#"}>Link 4</Link>
-            <Link to={"#"}>Link 5</Link>
-            <Link to={"#"}>Link 6</Link>
-            <Link to={"#"}>Link 7</Link>
-            <Link to={"#"}>Link 8</Link>
-            <Link to={"#"}>Link 9</Link>
-          </div> */}
           <div className="more-comp-right">
             <h1>Day Tour to Samarkand </h1>
             <div className="img-more">
