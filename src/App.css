@@ -15,3 +15,14 @@
   align-items: center;
   justify-content: center;
 }
+
+.header-link svg {
+  width: 250px !important;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .header-link {
+    width: 200px !important;
+  }
+}

@@ -8,6 +8,7 @@ import Typography from "@mui/material/Typography";
 import "./style.css";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
+import Logo from "../../../img/Logo";
 // import img from "../img/logo.svg";
 // import img1 from "../img/Group3.svg";
 // import img2 from "../img/hero-phones.png";
@@ -37,7 +38,9 @@ export default function TransitionsModal() {
           <div className="Nav">
             <div className="na">
               <div className="img-mobie">
-                <Link to="/">SamanTrip</Link>
+                <Link className="header-link " to="/">
+                  <Logo />
+                </Link>
               </div>
 
               <Button onClick={handleOpen} className="btn-mobile">

@@ -5,6 +5,7 @@ import { RiInstagramFill } from "react-icons/ri";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { FaFacebook } from "react-icons/fa";
+import Logo from "../img/Logo";
 export default function Header() {
   const { t, i18n } = useTranslation();
   const handleChangeLanguage = (lng) => {
@@ -15,7 +16,9 @@ export default function Header() {
       <div className="container">
         <div className="header-top">
           <div className="header-logo">
-            <Link to="/">SamanTrip</Link>
+            <Link className="header-link" to="/">
+              <Logo />
+            </Link>
           </div>
           <div className="navbar-menu">
             <ul className="nav">
