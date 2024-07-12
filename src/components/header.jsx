@@ -41,14 +41,9 @@ export default function Header() {
               <select
                 onChange={(e) => handleChangeLanguage(e.target.value)}
                 className="language">
-                <option value="uz" to="/">
-                  UZ
-                </option>
-
                 <option value="en" to="/">
                   ENG
                 </option>
-
                 <option value="ru" to="/">
                   RU
                 </option>

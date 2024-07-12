@@ -157,12 +157,6 @@ const Samarkand = () => {
                 hotel. End of tour.
               </p>{" "}
               <br />
-              <p>
-                <strong>Price for the tour:</strong>&nbsp;
-                <strong>$USD 250</strong> for 1 persons;{" "}
-                <strong>$USD 400</strong> for the 2 persons;{" "}
-                <strong>$USD 450</strong>&nbsp;for the 3 persons;
-              </p>{" "}
               <br />
               <p>
                 <strong>$USD 500</strong> for the 4 persons.
@@ -272,13 +266,7 @@ const Samarkand = () => {
                 <strong>22:00</strong>&nbsp;Arrival in Tashkent. End of a tour.
               </p>{" "}
               <br />
-              <br />{" "}
-              <p>
-                <strong>Price for the tour:</strong>&nbsp;
-                <strong>$USD 300</strong> (1-3 person) sedan car;{" "}
-                <strong>$USD 500</strong> (4-7 person) minivan,
-              </p>{" "}
-              <br />
+              <br /> <br />
               <p>
                 <strong>$USD 700</strong> (8-14 people).
               </p>{" "}

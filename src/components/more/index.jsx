@@ -127,12 +127,7 @@ const Index = () => {
                 />
               </div>{" "}
               <br />
-              <p>
-                {" "}
-                <strong>Price for the tour:</strong>&nbsp;$140 (1-3 people)
-                sedan car,&nbsp; $250 (4–6&nbsp;people) minivan, $300 (6-8
-                people) minivan.
-              </p>{" "}
+            
               <br />
               <p>
                 <strong>Tour price includes:</strong>&nbsp;My guiding and

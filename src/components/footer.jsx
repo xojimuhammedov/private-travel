@@ -14,7 +14,7 @@ export default function Footer() {
             </div>
             <div class="col-lg-9">
               <div class="border-button">
-                <a href="#contact">{t("connecting")}</a>
+                <a href="#contact">{t("Contacts")}</a>
               </div>
             </div>
           </div>
