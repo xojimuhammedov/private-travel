@@ -10,7 +10,7 @@ const Main = () => {
       <div className="More-component">
         <div className="container">
           <div className="more-center">
-            <h1>Aziz Khalmuradov: private guiding in Uzbekistan</h1>
+            <h1>Samandar Ikromov: private guiding in Uzbekistan</h1>
             <h3>
               Customized tours and business trip logistics across Uzbekistan
             </h3>
