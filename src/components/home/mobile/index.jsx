@@ -89,10 +89,6 @@ export default function TransitionsModal() {
                       <select
                         onChange={(e) => handleChangeLanguage(e.target.value)}
                         className="language">
-                        <option value="uz" to="/">
-                          UZ
-                        </option>
-
                         <option value="en" to="/">
                           ENG
                         </option>

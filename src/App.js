@@ -7,6 +7,7 @@ import Index from "./components/more";
 import Samarkand from "./components/more/samarkand";
 import Khiva from "./components/more/khiva";
 import Nukus from "./components/more/nukus";
+import Bukhara from "./components/more/bukhara";
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
         <Route path="/more-samarkand" element={<Samarkand />} />
         <Route path="/more-khiva" element={<Khiva />} />
         <Route path="/more-nukus" element={<Nukus />} />
+        <Route path="/more-bukhara" element={<Bukhara />} />
         <Route path="/about" element={<AboutUs />} />
       </Routes>
     </div>

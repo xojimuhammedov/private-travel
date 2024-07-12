@@ -5,6 +5,7 @@ import Main from "../main";
 import Section from "../section";
 import Contact from "../contact";
 import Mobile from "./mobile/index";
+import Statistic from "../Statistic";
 export default function index() {
   return (
     <div className="home">
@@ -13,6 +14,7 @@ export default function index() {
       <Swiper />
       <Main />
       <Section />
+      <Statistic />
       <Contact />
     </div>
   );

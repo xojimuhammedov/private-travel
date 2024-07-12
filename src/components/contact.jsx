@@ -78,21 +78,21 @@ export default function Contact() {
               <div className="row-reservation">
                 <div className="info-item">
                   <i>
-                    <MdOutlineLocalPhone />
+                    <MdOutlineLocalPhone style={{ margin: "15px" }} />
                   </i>
                   <h4>{t("phone")}</h4>
                   <p>+998990621736</p>
                 </div>
                 <div className="info-item">
                   <i>
-                    <CgMail />
+                    <CgMail style={{ margin: "15px" }} />
                   </i>
                   <h4>{t("email")}</h4>
                   <p>+998990621736</p>
                 </div>
                 <div className="info-item">
                   <i>
-                    <FaLocationArrow />
+                    <FaLocationArrow style={{ margin: "15px" }} />
                   </i>
                   <h4>{t("office")}</h4>
                   <p>Tashkent</p>

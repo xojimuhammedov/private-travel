@@ -2,23 +2,10 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import Tashkent from "../img/tashkent.jpg";
 import Samarkand from "../img/samarkand.jpg";
+import Bukhara from "../img/bukhara.JPG";
+import Khiva from "../img/IMG_5540.JPG";
+import Qoraqalpoq from "../img/IMG_5526.JPG";
 
-import OneImage from "../img/IMG_5525.JPG";
-import TwoImage from "../img/IMG_5526.JPG";
-import ThreeImage from "../img/IMG_5527.JPG";
-import FourImage from "../img/IMG_5531.JPG";
-import FiveImage from "../img/IMG_5533.JPG";
-import SixImage from "../img/IMG_5537.JPG";
-import SevenImage from "../img/IMG_5538.JPG";
-import EightImage from "../img/IMG_5539.JPG";
-import NineImage from "../img/IMG_5540.JPG";
-import TenImage from "../img/IMG_5374.JPG";
-import ElevenImage from "../img/IMG_5524.JPG";
-import TwelfImage from "../img/IMG_5530.JPG";
-import ThirsteenImage from "../img/IMG_5532.JPG";
-import FourteenImage from "../img/IMG_5545.JPG";
-import FiveteenImage from "../img/IMG_5547.JPG";
-import SixteenImage from "../img/IMG_5548.JPG";
 import { Link } from "react-router-dom";
 
 export default function Section() {
@@ -26,51 +13,11 @@ export default function Section() {
   return (
     <div className="Section">
       <div className="container">
-        {/* <h1>{t("tickets")}</h1> */}
-        {/* <p className="section-p">{t("way")}</p> */}
         <div className="section-cards">
-          {/* <div className="section-cards-items">
-            <img
-              src="https://zamontour.uz/assets/images/afr.jpg"
-              alt="Railway adventure"
-            />
-            <div className="content-right">
-              <div className="content-main">
-                <div className="section-text">
-                  <h4>{t("cheap")}</h4>
-                  <span>{t("world")}</span>
-                </div>
-              </div>
-              <p>{t("temir_p")}</p>
-              <div className="content-button">
-                <button>{t("know")}</button>
-              </div>
-            </div>
-          </div>
-
-          <div className="section-cards-items">
-            <img
-              src="https://zamontour.uz/assets/images/airplane.jpg"
-              alt="Airplane adventure"
-            />
-            <div className="content-right">
-              <div className="content-main">
-                <div className="section-text">
-                  <h4>{t("avia")}</h4>
-                  <span>{t("world")}</span>
-                </div>
-              </div>
-              <p>{t("avia_p")}</p>
-              <div className="content-button">
-                <button>{t("know")}</button>
-              </div>
-            </div>
-          </div> */}
-
           <h1 className="section-h1">{t("city")}</h1>
           <p className="section-v">{t("city_p")}</p>
           <div className="section-cards-items">
-            <img src={Tashkent} alt="Visit-Tashkent" />
+            <img className="section-img" src={Tashkent} alt="Visit-Tashkent" />
             <div className="content-right">
               <div className="content-main">
                 <div className="section-text">
@@ -88,7 +35,11 @@ export default function Section() {
           </div>
 
           <div className="section-cards-items">
-            <img src={Samarkand} alt="Visit-Samarkand" />
+            <img
+              className="section-img"
+              src={Samarkand}
+              alt="Visit-Samarkand"
+            />
             <div className="content-right">
               <div className="content-main">
                 <div className="section-text">
@@ -104,12 +55,26 @@ export default function Section() {
               </div>
             </div>
           </div>
+          <div className="section-cards-items">
+            <img className="section-img" src={Bukhara} alt="Visit-Samarkand" />
+            <div className="content-right">
+              <div className="content-main">
+                <div className="section-text">
+                  <h4>Day Tour to Bukhara</h4>
+                  <span>Uzbekistan</span>
+                </div>
+              </div>
+              <p>{t("bukhara_p")}</p>
+              <div className="content-button">
+                <Link className="content-link" to={"/more-bukhara"}>
+                  {t("know")}
+                </Link>
+              </div>
+            </div>
+          </div>
 
           <div className="section-cards-items">
-            <img
-              src="https://azizguide.com/thumb/2/G3baSABItdZCqtUSIJsQrA/301c280/d/khiva_islam_khodja_minaret.jpg"
-              alt="Visit Dubai"
-            />
+            <img src={Khiva} alt="Visit Dubai" className="section-img" />
             <div className="content-right">
               <div className="content-main">
                 <div className="section-text">
@@ -127,10 +92,7 @@ export default function Section() {
           </div>
 
           <div className="section-cards-items">
-            <img
-              src="https://azizguide.com/thumb/2/X2wPlcWoX_Q0SZhqIBtgrQ/301c280/d/20160703_154743.jpg"
-              alt="Visit Dubai"
-            />
+            <img src={Qoraqalpoq} alt="Visit Dubai" className="section-img" />
             <div className="content-right">
               <div className="content-main">
                 <div className="section-text">
@@ -243,26 +205,6 @@ export default function Section() {
                   </div>
                 </div>
               </label>
-            </div>
-          </div>
-          <div className="wrapper mobile-gallery-image">
-            <div className="mobile-gallery-list">
-              <img className="gallery-image" src={OneImage} alt="" />
-              <img className="gallery-image" src={TwoImage} alt="" />
-              <img className="gallery-image" src={ThreeImage} alt="" />
-              <img className="gallery-image" src={FourImage} alt="" />
-              <img className="gallery-image" src={FiveImage} alt="" />
-              <img className="gallery-image" src={SixImage} alt="" />
-              <img className="gallery-image" src={SevenImage} alt="" />
-              <img className="gallery-image" src={EightImage} alt="" />
-              <img className="gallery-image" src={NineImage} alt="" />
-              <img className="gallery-image" src={TenImage} alt="" />
-              <img className="gallery-image" src={ElevenImage} alt="" />
-              <img className="gallery-image" src={TwelfImage} alt="" />
-              <img className="gallery-image" src={ThirsteenImage} alt="" />
-              <img className="gallery-image" src={FourteenImage} alt="" />
-              <img className="gallery-image" src={FiveteenImage} alt="" />
-              <img className="gallery-image" src={SixteenImage} alt="" />
             </div>
           </div>
         </div>
