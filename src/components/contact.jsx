@@ -32,7 +32,7 @@ export default function Contact() {
 
   let bot = {
     TOKEN: "6923751684:AAGXHTr_fJQFkSGQUUGamMzmWrO2Ubd2RjU",
-    chatID: "-1002057999982",
+    chatID: "-1002150326339",
     message: `
         Assalomu alaykum sizga yangi xabar!%0A
         %0AIsmi 👤: ${nameValue}; 
