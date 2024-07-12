@@ -42,25 +42,22 @@ export default function Contact() {
 
   function sendMessage(e) {
     e.preventDefault();
-    if (nameValue === "") {
-    } else if (numberValue === "") {
-    } else {
-      fetch(
-        `https://api.telegram.org/bot${bot.TOKEN}/sendMessage?chat_id=${bot.chatID}&text=${bot.message} `,
-        {
-          method: "GET",
+
+    fetch(
+      `https://api.telegram.org/bot${bot.TOKEN}/sendMessage?chat_id=${bot.chatID}&text=${bot.message} `,
+      {
+        method: "GET",
+      }
+    ).then(
+      (success) => {
+        if (success.status === 200) {
+          handleClear();
         }
-      ).then(
-        (success) => {
-          if (success.status === 200) {
-            handleClear();
-          }
-          window.location.reload();
-          toast.success("Sizning xabaringiz muvaffaqiyatli yuborildi!");
-        },
-        (error) => {}
-      );
-    }
+        window.location.reload();
+        toast.success("Sizning xabaringiz muvaffaqiyatli yuborildi!");
+      },
+      (error) => {}
+    );
   }
   return (
     <>
@@ -145,7 +142,9 @@ export default function Contact() {
                   </fieldset>
                 </div>
               </div>
-              <button onClick={sendMessage}>{t("making")}</button>
+              <button style={{ cursor: "pointer" }} onClick={sendMessage}>
+                {t("making")}
+              </button>
             </div>
           </Fade>
         </div>
