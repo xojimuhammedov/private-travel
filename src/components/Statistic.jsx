@@ -34,7 +34,7 @@ function Statistic() {
                         className="static-number"
                         start={0}
                         duration={2.75}
-                        end="10"
+                        end="5"
                         delay={0}
                       />
                     )}
@@ -49,7 +49,7 @@ function Statistic() {
                         className="static-number"
                         start={0}
                         duration={2.75}
-                        end="120"
+                        end="50"
                         delay={0}
                       />
                     )}
@@ -64,7 +64,7 @@ function Statistic() {
                         className="static-number"
                         start={0}
                         duration={2.75}
-                        end="60"
+                        end="10"
                         delay={0}
                       />
                     )}
