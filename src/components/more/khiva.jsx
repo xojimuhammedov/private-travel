@@ -10,20 +10,7 @@ const Khiva = () => {
       <div className="cotainer">
         {" "}
         <div className="more-comp-bottom">
-          {/* <div class="vertical-menu">
-            <Link to={"#"} class="active">
-              Home
-            </Link>
-            <Link to={"#"}>Link 1</Link>
-            <Link to={"#"}>Link 2</Link>
-            <Link to={"#"}>Link 3</Link>
-            <Link to={"#"}>Link 4</Link>
-            <Link to={"#"}>Link 5</Link>
-            <Link to={"#"}>Link 6</Link>
-            <Link to={"#"}>Link 7</Link>
-            <Link to={"#"}>Link 8</Link>
-            <Link to={"#"}>Link 9</Link>
-          </div> */}
+          
           <div className="more-comp-right">
             <br /> <h1>Tashkent-Urgench (Khiva)-Bukhara-Samarkand-Tashkent</h1>{" "}
             <br />
@@ -77,7 +64,7 @@ const Khiva = () => {
                 your arrival time):
               </p>{" "}
               <br />
-              <ul>
+              <ul className="list-style">
                 <li>Visit the Memorial for the Victims of Repression.</li>
                 <li>Overview the Tashkent TV tower (distant view).</li>
                 <li>Central Asian Plov Center.</li>
@@ -190,7 +177,7 @@ const Khiva = () => {
               <br />
               <br />
               <p>Sightseeing tour across Bukhara:</p> <br />
-              <ul>
+              <ul className="list-style">
                 <li>Samanids Mausoleum.</li>
                 <li>Chashma-Ayub Mausoleum.</li>
                 <li>Bolo-House Mosque.</li>
@@ -209,9 +196,6 @@ const Khiva = () => {
               <p>
                 <strong>19:00</strong>&nbsp;Dinner. Overnight in hotel.
               </p>
-              <br />
-              <br /> <br />
-              <Link to={"#contact"}>Contact me</Link>
             </div>
           </div>
         </div>

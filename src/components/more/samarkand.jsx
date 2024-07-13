@@ -116,7 +116,7 @@ const Samarkand = () => {
                   <strong>Lunch.</strong>&nbsp;Continue the tour:
                 </p>{" "}
                 <br />
-                <ul>
+                <ul className="list-style">
                   <li>Bibi-Khanum Mosque.</li>
                   <li>Siab Bazaar.</li>
                   <li>Ulugbek Observatory.</li>
@@ -157,24 +157,6 @@ const Samarkand = () => {
                 hotel. End of tour.
               </p>{" "}
               <br />
-              <br />
-              <p>
-                <strong>$USD 500</strong> for the 4 persons.
-              </p>{" "}
-              <br />
-              <p>
-                <strong>Tour price includes:</strong>
-                &nbsp;Tashkent-Samarkand-Tashkent train tickets, all transfers,
-                my time and service as your private guide.
-              </p>{" "}
-              <br />
-              <p>
-                <strong>Tour price excludes:</strong>&nbsp;Entrance tickets to
-                the sites, photo/video shooting fees (for professional cameras
-                only), lunch.
-              </p>{" "}
-              <br />
-              <br />{" "}
               <p>
                 <p>
                   <strong>
@@ -235,7 +217,7 @@ const Samarkand = () => {
                 <strong>Lunch.</strong>&nbsp;Continue the tour:
               </p>{" "}
               <br />
-              <ul>
+              <ul className="list-style">
                 <li>Bibi-Khanum Mosque</li>
                 <li>Siab Bazaar</li>
                 <li>Ulugbek Observatory</li>
@@ -265,24 +247,6 @@ const Samarkand = () => {
               <p>
                 <strong>22:00</strong>&nbsp;Arrival in Tashkent. End of a tour.
               </p>{" "}
-              <br />
-              <br /> <br />
-              <p>
-                <strong>$USD 700</strong> (8-14 people).
-              </p>{" "}
-              <br />
-              <p>
-                <strong>Tour price includes:</strong>&nbsp;Transportation by
-                car/minivan, my time and service as your private guide.
-              </p>{" "}
-              <br />
-              <p>
-                <strong>Tour price excludes:</strong>&nbsp;Entrance tickets to
-                the sites, photo/video shooting fees (for professional cameras
-                only), lunch.
-              </p>
-              <br /> <br />
-              <Link to={"#contact"}>Contact me</Link>
             </div>
           </div>
         </div>

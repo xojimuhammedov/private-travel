@@ -126,20 +126,6 @@ const Index = () => {
                   alt=""
                 />
               </div>{" "}
-              <br />
-            
-              <br />
-              <p>
-                <strong>Tour price includes:</strong>&nbsp;My guiding and
-                driving services.
-              </p>{" "}
-              <br />
-              <p>
-                <strong>Tour price excludes:</strong>&nbsp;Lunch and entrance
-                tickets to the Mui-Muborak Madrasah.
-              </p>{" "}
-              <br /> <br />
-              <Link to={"#contact"}>Contact me</Link>
             </div>
           </div>
         </div>

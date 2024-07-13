@@ -144,3 +144,24 @@
   border: none;
   background-color: #22b3c1;
 }
+
+.service-title {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 35px;
+  margin-top: 50px;
+}
+
+.service-text {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+
+@media (max-width: 768px) {
+  .service-title, .service-text{
+    padding: 0 15px;
+  }
+}

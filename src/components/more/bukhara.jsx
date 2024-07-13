@@ -11,7 +11,7 @@ const Bukhara = () => {
         {" "}
         <div className="more-comp-bottom">
           <div className="more-comp-right">
-            <br /> <h1>Tashkent-Bukhara-Samarkand-Tashkent</h1> <br />
+            <h1>Tashkent-Bukhara-Samarkand-Tashkent</h1>
             <div className="more-travel-about">
               <p>
                 Treasures of Uzbekistan: The Great Silk Road. Unforgettable tour
@@ -62,7 +62,7 @@ const Bukhara = () => {
                 your arrival time):
               </p>{" "}
               <br />
-              <ul>
+              <ul className="list-style">
                 <li>Visit the Memorial for the Victims of Repression.</li>
                 <li>Overview the Tashkent TV tower (distant view).</li>
                 <li>Central Asian Plov Center.</li>
@@ -168,7 +168,6 @@ const Bukhara = () => {
                 <strong>Bukhara</strong>
               </p>{" "}
               <br />
-              <br />
               <p>Sightseeing tour across Bukhara:</p> <br />
               <ul>
                 <li>Samanids Mausoleum.</li>
@@ -189,9 +188,6 @@ const Bukhara = () => {
               <p>
                 <strong>19:00</strong>&nbsp;Dinner. Overnight in hotel.
               </p>
-              <br />
-              <br /> <br />
-              <Link to={"#contact"}>Contact me</Link>
             </div>
           </div>
         </div>

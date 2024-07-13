@@ -53,6 +53,16 @@ export default function Footer() {
               </a>
             </li>
           </ul>
+          <ul className="footer-bottom-list">
+            <li>
+              <a href="tel:+998990621736">+998 99 062 17 36</a>
+            </li>
+            <li>
+              <a href="mailto:samandarwtf.13@gmail.com">
+                samandarwtf.13@gmail.com
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
       <div className="foot-end">

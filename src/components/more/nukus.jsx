@@ -10,20 +10,7 @@ const Khiva = () => {
       <div className="cotainer">
         {" "}
         <div className="more-comp-bottom text-align">
-          {/* <div class="vertical-menu">
-            <Link to={"#"} class="active">
-              Home
-            </Link>
-            <Link to={"#"}>Link 1</Link>
-            <Link to={"#"}>Link 2</Link>
-            <Link to={"#"}>Link 3</Link>
-            <Link to={"#"}>Link 4</Link>
-            <Link to={"#"}>Link 5</Link>
-            <Link to={"#"}>Link 6</Link>
-            <Link to={"#"}>Link 7</Link>
-            <Link to={"#"}>Link 8</Link>
-            <Link to={"#"}>Link 9</Link>
-          </div> */}
+          
           <div className="more-comp-right">
             <br /> <h1>Tashkent-Nukus-Moynak-Nukus-Khiva-Tashkent</h1> <br />
             <div className="more-travel-about">
@@ -74,7 +61,7 @@ const Khiva = () => {
                 your arrival time):
               </p>{" "}
               <br />
-              <ul>
+              <ul className="list-style">
                 <li>Visit the Memorial for the Victims of Repression.</li>
                 <li>Overview the Tashkent TV tower (distant view).</li>
                 <li>Central Asian Plov Center.</li>
@@ -158,7 +145,7 @@ const Khiva = () => {
               <br />
               <br />
               <p>Khiva tour:</p> <br />
-              <ul>
+              <ul className="list-style">
                 <li>
                   Ichan-Kala - the walled inner town of the city of Khiva .
                 </li>
@@ -211,15 +198,6 @@ const Khiva = () => {
                 If wished the tour program can be tailored to your interests.
               </p>{" "}
               <br />
-              <p>
-                <strong>
-                  This is customized tour. Price for the tour will be set after
-                  discussing all details with you.
-                </strong>
-              </p>{" "}
-              <br />
-              <br />
-              <p>Tour price includes:</p> <br />
               <ul>
                 <li>Tourist visa to Uzbekistan (if required)</li>
                 <li>Tashkent-Nukus and Urgench-Tashkent air tickets</li>
@@ -246,8 +224,6 @@ const Khiva = () => {
                 <li>Payment for hotel extra services</li>
                 <li>Personal Insurance</li>
               </ul>
-              <br />
-              <Link to={"#contact"}>Contact me</Link>
             </div>
           </div>
         </div>

@@ -6,6 +6,7 @@ import Section from "../section";
 import Contact from "../contact";
 import Mobile from "./mobile/index";
 import Statistic from "../Statistic";
+import Feedback from "../Feedback";
 export default function index() {
   return (
     <div className="home">
@@ -15,6 +16,7 @@ export default function index() {
       <Main />
       <Section />
       <Statistic />
+      <Feedback />
       <Contact />
     </div>
   );
