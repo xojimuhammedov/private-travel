@@ -8,6 +8,7 @@ import Samarkand from "./components/more/samarkand";
 import Khiva from "./components/more/khiva";
 import Nukus from "./components/more/nukus";
 import Bukhara from "./components/more/bukhara";
+import Chimgan from "./components/more/chimgan";
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,7 @@ function App() {
         <Route path="/more-khiva" element={<Khiva />} />
         <Route path="/more-nukus" element={<Nukus />} />
         <Route path="/more-bukhara" element={<Bukhara />} />
+        <Route path="/more-chimgan" element={<Chimgan />} />
         <Route path="/about" element={<AboutUs />} />
       </Routes>
     </div>

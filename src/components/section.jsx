@@ -5,6 +5,7 @@ import Samarkand from "../img/samarkand.jpg";
 import Bukhara from "../img/bukhara.JPG";
 import Khiva from "../img/IMG_5540.JPG";
 import Qoraqalpoq from "../img/IMG_5526.JPG";
+import Chimgan from "../img/IMG_5539.JPG";
 
 import { Link } from "react-router-dom";
 
@@ -108,7 +109,25 @@ export default function Section() {
               </div>
             </div>
           </div>
+          <div className="section-cards-items">
+            <img src={Chimgan} alt="Visit Dubai" className="section-img" />
+            <div className="content-right">
+              <div className="content-main">
+                <div className="section-text">
+                  <h4>Day Tour to Chimgan and Amirsoy</h4>
+                  <span>Uzbekistan</span>
+                </div>
+              </div>
+              <p>{t("chimgan")}</p>
+              <div className="content-button">
+                <Link className="content-link" to={"/more-chimgan"}>
+                  {t("know")}
+                </Link>
+              </div>
+            </div>
+          </div>
         </div>
+
         <div className="locations">
           <h1>{t("locations")}</h1>
           <p>{t("discover")}</p>
