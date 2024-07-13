@@ -34,8 +34,8 @@ function FeedbackModal() {
     setTextValue(null);
   };
   let bot = {
-    TOKEN: "6765528514:AAG32y-OX4yj8JLVO9ixso8jp7WZ8Khx4LA",
-    chatID: "-1002195363967",
+    TOKEN: "6923751684:AAGXHTr_fJQFkSGQUUGamMzmWrO2Ubd2RjU",
+    chatID: "-1002150326339",
     message: `
           Assalomu alaykum sizga yangi xabar!%0A
           %0AIsmi 👤: ${nameValue}; 
