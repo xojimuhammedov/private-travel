@@ -20,6 +20,16 @@ const Bukhara = () => {
                 mongols invasion and Tamerlane's Empire.
               </p>
               <br />
+              <div className="zomin-list">
+                <img
+                  src="https://www.advantour.com/img/uzbekistan/bukhara/bukhara-tours-day-trips.jpg"
+                  alt=""
+                />
+                <img
+                  src="https://www.advantour.com/img/uzbekistan/tours/city-tour-bukhara.jpg"
+                  alt=""
+                />
+              </div>
               <p>
                 This tour will give you opportunity to visit 9 regions of
                 Uzbekistan. You will learn history and culture, traditions and{" "}
@@ -42,6 +52,16 @@ const Bukhara = () => {
               </p>{" "}
             </div>
             <br /> <br />
+            <div className="zomin-list">
+              <img
+                src="https://www.advantour.com/img/uzbekistan/tours/city-tour-bukhara2.jpg"
+                alt=""
+              />
+              <img
+                src="https://www.advantour.com/img/uzbekistan/tours/two-day-bukhara-tour.jpg"
+                alt=""
+              />
+            </div>
             <div className="more-travel-about">
               <p>
                 <strong>8 days / 7 nights</strong>
@@ -94,6 +114,16 @@ const Bukhara = () => {
               </p>{" "}
               <br />
               <br />
+              <div className="zomin-list">
+                <img
+                  src="https://www.advantour.com/img/uzbekistan/tours/bukhara-tour-3-days.jpg"
+                  alt=""
+                />
+                <img
+                  src="https://www.advantour.com/img/uzbekistan/tours/bukhara-day-tour.jpg"
+                  alt=""
+                />
+              </div>
               <p>
                 Early morning transfer to airport for the &nbsp;flight to
                 Urgench/Khiva, time will be specified. Flight departure time
@@ -136,58 +166,7 @@ const Bukhara = () => {
               </p>
               <br />
               <p>Free time. Overnight in hotel.</p> <br />
-              <br /> <br />
-              <p>
-                <strong>Day 3</strong>
-              </p>
-              <br />
-              <p>
-                <strong>Bukhara-Samarkand</strong>
-              </p>{" "}
-              <br />
-              <br />
-              <p>Lunch. Free time.</p>
-              <br />
-              <p>
-                <strong>15:50&nbsp;</strong>Transfer to Railway station.&nbsp;
-                <strong>16:18</strong>&nbsp;Visit Sitorai-Mokhi-Khosa - the
-                Summer Palace of Bukhara Emir.
-              </p>{" "}
-              <br />
-              <p>
-                <strong>22:40</strong>&nbsp;Arrival in Bukhara. Transfer to
-                hotel.
-              </p>{" "}
-              <br />
-              <br />
-              <p>
-                <strong>Day 4</strong>
-              </p>{" "}
-              <br />
-              <p>
-                <strong>Bukhara</strong>
-              </p>{" "}
-              <br />
-              <p>Sightseeing tour across Bukhara:</p> <br />
-              <ul>
-                <li>Samanids Mausoleum.</li>
-                <li>Chashma-Ayub Mausoleum.</li>
-                <li>Bolo-House Mosque.</li>
-                <li>The Ark (Bukhara Emir’s residence).</li>
-                <li>
-                  Poi-Kalon Ensemble: Mir-Arab Madrasah, Kalyan Minaret,
-                  Poi-Kalon Mosque.
-                </li>
-                <li>Toki-Zargaron Trade domes.</li>
-                <li>Ulugbek's and Abdulazizkhan's madrasahs.</li>
-                <li>Telpak-Furushon Trade domes.</li>
-                <li>Magoki-Attori's mosque.</li>
-                <li>Lyabi-House Ensemble.</li>
-              </ul>{" "}
-              <br />
-              <p>
-                <strong>19:00</strong>&nbsp;Dinner. Overnight in hotel.
-              </p>
+              <br /> 
             </div>
           </div>
         </div>

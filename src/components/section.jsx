@@ -126,6 +126,29 @@ export default function Section() {
               </div>
             </div>
           </div>
+          <div className="section-cards-items">
+            <img
+              src={
+                "https://www.advantour.com/img/uzbekistan/jizzakh/zaamin.jpg"
+              }
+              alt="Visit Dubai"
+              className="section-img"
+            />
+            <div className="content-right">
+              <div className="content-main">
+                <div className="section-text">
+                  <h4>Day Tour to Zaamin</h4>
+                  <span>Uzbekistan</span>
+                </div>
+              </div>
+              <p>{t("zomin")}</p>
+              <div className="content-button">
+                <Link className="content-link" to={"/more-zomin"}>
+                  {t("know")}
+                </Link>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div className="locations">

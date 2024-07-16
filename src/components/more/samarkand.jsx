@@ -12,17 +12,13 @@ const Samarkand = () => {
         <div className="more-comp-bottom">
           <div className="more-comp-right">
             <h1>Day Tour to Samarkand </h1>
-            <div className="img-more">
+            <div className="zomin-list">
               <img
-                src="https://azizguide.com/thumb/2/BALD5LceAYsoAPXKU6fbSQ/90r90/d/afrosiab_speed_train.jpg"
+                src="https://www.advantour.com/img/uzbekistan/tours/city-tour-samarkand/registan.jpg"
                 alt=""
               />
               <img
-                src="https://azizguide.com/thumb/2/9qC84iUZD3nbIrMTQ5MeSQ/90r90/d/20170420_222333.jpg"
-                alt=""
-              />
-              <img
-                src="https://azizguide.com/thumb/2/YZiHc-Zxh5oTpJZrZcUyRQ/90r90/d/samarkand_sher-dor_madrassah_2.jpg"
+                src="https://www.advantour.com/img/uzbekistan/tours/city-tour-samarkand/shahi-zinda3.jpg"
                 alt=""
               />
             </div>
@@ -54,24 +50,16 @@ const Samarkand = () => {
                 this town one can feel the breath of history itself.
               </p>{" "}
             </div>
-            <div className="img-more">
+            <div className="zomin-list">
               <img
-                src="https://azizguide.com/thumb/2/HoFdc60K1SFnTPjWFszfcg/90r90/d/samarkand_railway_station.jpg"
+                src="https://www.advantour.com/img/uzbekistan/tours/city-tour-samarkand/guri-emir.jpg"
                 alt=""
               />
               <img
-                src="https://azizguide.com/thumb/2/1L936Py5f_Gr4VJZKs2OAw/90r90/d/samarkand_sher-dor_madrassah.jpg"
+                src="https://www.advantour.com/img/uzbekistan/tours/city-tour-samarkand/bibihanum-mosque.jpg"
                 alt=""
               />
-              <img
-                src="https://azizguide.com/thumb/2/ksIePqBVnLxF4BMYMxVRWw/90r90/d/samarkand_zhakhi-zinda_2019.jpg"
-                alt=""
-              />
-              <img
-                src="https://azizguide.com/thumb/2/MRNl0fGetuuZX4EIK7jx2w/90r90/d/samarkand_registan.jpg"
-                alt=""
-              />
-            </div>{" "}
+            </div>
             <br />
             <br />
             <div className="more-travel-about">
@@ -124,24 +112,16 @@ const Samarkand = () => {
                 </ul>
               </p>
               <br />
-              <div className="img-more">
+              <div className="zomin-list">
                 <img
-                  src="https://azizguide.com/thumb/2/U9UwPoSq_JHFt5QjKslLXw/90r90/d/tashkent_chorsu_dome.jpg"
+                  src="https://www.advantour.com/img/uzbekistan/tours/city-tour-samarkand/shakhi-zinda1.jpg"
                   alt=""
                 />
                 <img
-                  src="https://azizguide.com/thumb/2/2b3VHH7BdQ34VuBxlp9z1Q/90r90/d/tashkent_chorsu_spices.jpg"
+                  src="https://www.advantour.com/img/uzbekistan/tours/city-tour-samarkand/siab-bazaar.jpg"
                   alt=""
                 />
-                <img
-                  src="https://azizguide.com/thumb/2/QmwUaEwA_algjtIAL1a89w/90r90/d/tashkent_chorsu_bazaar.jpg"
-                  alt=""
-                />
-                <img
-                  src="https://azizguide.com/thumb/2/uWIlInONawDVuwn3WzCFtg/90r90/d/tashkent_pilaf_center.jpg"
-                  alt=""
-                />
-              </div>{" "}
+              </div>
               <br />
               <p>
                 <strong>16:20</strong>&nbsp;Transfer to railway station.
@@ -173,24 +153,16 @@ const Samarkand = () => {
                 cotton field.
               </p>{" "}
               <br />
-              <div className="img-more">
+              <div className="zomin-list">
                 <img
-                  src="https://azizguide.com/thumb/2/Jn3WLadPdNmAtFts742yjA/90r90/d/melons_bazaar_on_the_way_to_samarkand.jpg"
+                  src="https://www.advantour.com/img/uzbekistan/tours/city-tour-samarkand/ulugbek-observatory1.jpg"
                   alt=""
                 />
                 <img
-                  src="https://azizguide.com/thumb/2/9-Ut5Hq0HfdFbYk6kKEB6w/90r90/d/20171001_133948.jpg"
+                  src="https://www.advantour.com/img/uzbekistan/tours/city-tour-samarkand/ulugbek-observatory2.jpg"
                   alt=""
                 />
-                <img
-                  src="https://azizguide.com/thumb/2/R-YATj_hubS9pX2SjLI4Tw/90r90/d/samarkand_shakhi-zinda_2017.jpg"
-                  alt=""
-                />
-                <img
-                  src="https://azizguide.com/thumb/2/L5Y0uQm1ihiLBca1iXdm6Q/90r90/d/samarkand_shakhi-zinda_2018.jpg"
-                  alt=""
-                />
-              </div>{" "}
+              </div>
               <br />
               <p>
                 <strong>07:00</strong>&nbsp;Departure from Tashkent to Samarkand
@@ -223,21 +195,6 @@ const Samarkand = () => {
                 <li>Ulugbek Observatory</li>
                 <li>Shakhi-Zinda Necropolis</li>
               </ul>{" "}
-              <br />
-              <div className="img-more">
-                <img
-                  src="https://azizguide.com/thumb/2/QyUlTrdbiqLdkEkCGwzk9w/90r90/d/samarkand_registan_2018.jpg"
-                  alt=""
-                />
-                <img
-                  src="https://azizguide.com/thumb/2/07U6l_cJUcpB1Ft7Ko7ONQ/90r90/d/screenshot_20190930-144338.png"
-                  alt=""
-                />
-                <img
-                  src="https://azizguide.com/thumb/2/lqFR60f_gErz0Rkvr0pFRg/90r90/d/samarkand_breakfast_in_the_jewish_block.jpg"
-                  alt=""
-                />
-              </div>
               <br />
               <p>
                 <strong>18:00</strong>&nbsp;Drive back from Samarkand to

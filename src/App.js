@@ -9,6 +9,7 @@ import Khiva from "./components/more/khiva";
 import Nukus from "./components/more/nukus";
 import Bukhara from "./components/more/bukhara";
 import Chimgan from "./components/more/chimgan";
+import Zomin from "./components/more/zomin";
 function App() {
   return (
     <div className="App">
@@ -20,6 +21,7 @@ function App() {
         <Route path="/more-nukus" element={<Nukus />} />
         <Route path="/more-bukhara" element={<Bukhara />} />
         <Route path="/more-chimgan" element={<Chimgan />} />
+        <Route path="/more-zomin" element={<Zomin />} />
         <Route path="/about" element={<AboutUs />} />
       </Routes>
     </div>

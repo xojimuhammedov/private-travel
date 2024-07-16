@@ -67,7 +67,7 @@
   border: 1.5px solid rgb(245, 251, 253);
 }
 
-.list-style{
+.list-style {
   list-style-type: circle;
 }
 
@@ -91,6 +91,16 @@
   flex-direction: column;
 }
 
+.zomin-list {
+  display: flex;
+  gap: 15px;
+  margin: 15px 0;
+}
+
+.zomin-list img{
+  width: 280px;
+}
+
 @media (max-width: 768px) {
   .header-link {
     width: 200px !important;
@@ -104,4 +114,9 @@
     justify-content: center;
     align-items: center;
   }
+
+  .zomin-list img{
+    width: 48%;
+  }
+  
 }

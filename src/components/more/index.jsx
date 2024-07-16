@@ -13,21 +13,13 @@ const Index = () => {
         <div className="more-comp-bottom">
           <div className="more-comp-right">
             <h1>Tashkent city Tour</h1>
-            <div className="img-more">
+            <div className="zomin-list">
               <img
-                src="https://azizguide.com/thumb/2/xycVvhid7bIVCDbMC9lBjg/90r90/d/tashkent_khast-imam_square_2.jpg"
+                src="https://www.advantour.com/img/uzbekistan/tours/city-tour-tashkent/barak-khan-madrasah.jpg"
                 alt=""
               />
               <img
-                src="https://azizguide.com/thumb/2/0QdCyOmNfky2wQvRMghQpw/90r90/d/tashkent_chorsu.jpg"
-                alt=""
-              />
-              <img
-                src="https://azizguide.com/thumb/2/cvnNgQnJptwO1fvIb1RlOw/90r90/d/tashkent_old_city.jpg"
-                alt=""
-              />
-              <img
-                src="https://azizguide.com/thumb/2/lzuKbUG46W1EFXKLE4DFOw/90r90/d/tashkent_samsa.jpg"
+                src="https://www.advantour.com/img/uzbekistan/tours/city-tour-tashkent/tilly-sheikh-mosque.jpg"
                 alt=""
               />
             </div>
@@ -61,17 +53,13 @@ const Index = () => {
               your time is limited, the sightseeing can be reduced to cover the
               highlights of the city.
             </div>
-            <div className="img-more">
+            <div className="zomin-list">
               <img
-                src="https://azizguide.com/thumb/2/PAJZxIcJ5A-sPYf1NF0wAw/90r90/d/tashkent_navoi_theatre.jpg"
+                src="https://www.advantour.com/img/uzbekistan/tours/city-tour-tashkent/applied-arts-museum2.jpg"
                 alt=""
               />
               <img
-                src="https://azizguide.com/thumb/2/NMWerJBnYX1UTaQcnOQYiw/90r90/d/tashkent_khast-imam_square.jpg"
-                alt=""
-              />
-              <img
-                src="https://azizguide.com/thumb/2/aqgmosvyuLnVnFJH3EzY4Q/90r90/d/tashkent_grande_duke_romanovs_palace.jpg"
+                src="https://www.advantour.com/img/uzbekistan/tours/city-tour-tashkent/mustakillik-fontain.jpg"
                 alt=""
               />
             </div>
@@ -108,24 +96,16 @@ const Index = () => {
               </ul>{" "}
               <br />
               <p>18:00 End of the tour.</p>
-              <div className="img-more">
+              <div className="zomin-list">
                 <img
-                  src="https://azizguide.com/thumb/2/U9UwPoSq_JHFt5QjKslLXw/90r90/d/tashkent_chorsu_dome.jpg"
+                  src="https://www.advantour.com/img/uzbekistan/tours/city-tour-tashkent/chorsu-bazaar.jpg"
                   alt=""
                 />
                 <img
-                  src="https://azizguide.com/thumb/2/2b3VHH7BdQ34VuBxlp9z1Q/90r90/d/tashkent_chorsu_spices.jpg"
+                  src="https://www.advantour.com/img/uzbekistan/tours/city-tour-tashkent/amir-timur-square.jpg"
                   alt=""
                 />
-                <img
-                  src="https://azizguide.com/thumb/2/QmwUaEwA_algjtIAL1a89w/90r90/d/tashkent_chorsu_bazaar.jpg"
-                  alt=""
-                />
-                <img
-                  src="https://azizguide.com/thumb/2/uWIlInONawDVuwn3WzCFtg/90r90/d/tashkent_pilaf_center.jpg"
-                  alt=""
-                />
-              </div>{" "}
+              </div>
             </div>
           </div>
         </div>

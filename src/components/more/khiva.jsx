@@ -10,7 +10,6 @@ const Khiva = () => {
       <div className="cotainer">
         {" "}
         <div className="more-comp-bottom">
-          
           <div className="more-comp-right">
             <br /> <h1>Tashkent-Urgench (Khiva)-Bukhara-Samarkand-Tashkent</h1>{" "}
             <br />
@@ -22,6 +21,16 @@ const Khiva = () => {
                 mongols invasion and Tamerlane's Empire.
               </p>
               <br />
+              <div className="zomin-list">
+                <img
+                  src="https://www.advantour.com/img/uzbekistan/khiva/khiva-tours-day-trips.jpg"
+                  alt=""
+                />
+                <img
+                  src="https://www.advantour.com/img/uzbekistan/tours/nukus-tour2.jpg"
+                  alt=""
+                />
+              </div>
               <p>
                 This tour will give you opportunity to visit 9 regions of
                 Uzbekistan. You will learn history and culture, traditions and{" "}
@@ -63,6 +72,16 @@ const Khiva = () => {
                 Sightseeing tour across Tashkent (starting time will depend on
                 your arrival time):
               </p>{" "}
+              <div className="zomin-list">
+                <img
+                  src="https://www.advantour.com/img/uzbekistan/tours/week-end-tour-1.jpg"
+                  alt=""
+                />
+                <img
+                  src="https://www.advantour.com/img/uzbekistan/tours/city-tour-khiva.jpg"
+                  alt=""
+                />
+              </div>
               <br />
               <ul className="list-style">
                 <li>Visit the Memorial for the Victims of Repression.</li>
@@ -101,6 +120,16 @@ const Khiva = () => {
                 Urgench/Khiva, time will be specified. Flight departure time
                 will be specified.
               </p>{" "}
+              <div className="zomin-list">
+                <img
+                  src="https://www.advantour.com/img/uzbekistan/tours/ancient-khorezm-tour.jpg"
+                  alt=""
+                />
+                <img
+                  src="https://www.advantour.com/img/uzbekistan/tours/kunya-urgench-darvaza.jpg"
+                  alt=""
+                />
+              </div>
               <br />
               <p>
                 Arrival in Urgench airport. Transfer to Khiva (30 minutes).

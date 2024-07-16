@@ -10,7 +10,6 @@ const Khiva = () => {
       <div className="cotainer">
         {" "}
         <div className="more-comp-bottom text-align">
-          
           <div className="more-comp-right">
             <br /> <h1>Tashkent-Nukus-Moynak-Nukus-Khiva-Tashkent</h1> <br />
             <div className="more-travel-about">
@@ -26,6 +25,16 @@ const Khiva = () => {
                 customs of land with its own, centuries-old unique
                 civilizations.
               </p>{" "}
+              <div className="zomin-list">
+                <img
+                  src="https://www.advantour.com/img/uzbekistan/tours/extension-aral-2.jpg"
+                  alt=""
+                />
+                <img
+                  src="https://www.advantour.com/img/uzbekistan/tours/nukus-tour2.jpg"
+                  alt=""
+                />
+              </div>
               <br />
               <p>
                 Samarkand, Bukhara, and Khiva, where cultural and spiritual
@@ -79,6 +88,16 @@ const Khiva = () => {
                 <li>Amir Temur's square.</li>
                 <li>Tashkent Metro (Underground/Subway).</li>
               </ul>{" "}
+              <div className="zomin-list">
+                <img
+                  src="https://www.advantour.com/img/uzbekistan/tours/aral-barsa-kelmes-tour.jpg"
+                  alt=""
+                />
+                <img
+                  src="https://www.advantour.com/img/uzbekistan/tours/extension-aral.jpg"
+                  alt=""
+                />
+              </div>
               <br />
               <p>
                 <strong>19:00</strong>&nbsp;Dinner. Overnight in the hotel.
@@ -135,6 +154,16 @@ const Khiva = () => {
               <br />
               <p>19:00-20:00 Dinner. Overnight in hotel.</p> <br />
               <br />
+              <div className="zomin-list">
+                <img
+                  src="https://www.advantour.com/img/uzbekistan/nukus/nukus-tours.jpg"
+                  alt=""
+                />
+                <img
+                  src="https://www.advantour.com/img/uzbekistan/tours/uzbekistan-tour-4.jpg"
+                  alt=""
+                />
+              </div>
               <p>
                 <strong>Day 4</strong>
               </p>{" "}

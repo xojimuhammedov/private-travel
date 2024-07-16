@@ -68,7 +68,7 @@ function FeedbackModal() {
   return (
     <ChakraProvider>
       <Button onClick={onOpen} {...css.buttons}>
-        Sharh qo`shish
+        Add a comment
       </Button>
       <Modal
         isCentered
@@ -80,7 +80,7 @@ function FeedbackModal() {
           <ModalCloseButton />
           <form className="form feedback-form" action="">
             <label htmlFor="username">
-              {t("Ism")}
+              {t("ism")}
               <input
                 type="text"
                 name="username"
@@ -88,23 +88,12 @@ function FeedbackModal() {
                 onChange={(e) => changeName(e.target.value)}
                 id="username"
                 className="contact-input"
-                placeholder={t("Ismingizni kiriting")}
+                placeholder={t("ism")}
               />
             </label>
-            <label htmlFor="email">
-              {t("Elektron pochta yoki Telegram")}
-              <input
-                type="text"
-                name="email"
-                id="email"
-                className="contact-input"
-                value={nameValue}
-                onChange={(e) => changeName(e.target.value)}
-                placeholder={t("Elektron pochta yoki Telegram")}
-              />
-            </label>
+
             <label htmlFor="phone">
-              {t("Telefon raqami")}
+              {t("telefon")}
               <input
                 type="number"
                 name="phone"
@@ -116,11 +105,11 @@ function FeedbackModal() {
               />
             </label>
             <label htmlFor="text">
-              {t("Sizning xabaringiz")}
+              {t("Message")}
               <textarea
                 name="text"
                 className="contact-input"
-                placeholder={t("Sizning xabaringiz")}
+                placeholder={t("Message")}
                 rows="5"
                 cols="50"
                 value={textValue}
@@ -128,7 +117,7 @@ function FeedbackModal() {
                 id="text"></textarea>
             </label>
             <Button onClick={sendMessage} {...css.button} type="submit">
-              {t("Yuborish")}
+              {t("making")}
             </Button>
           </form>
         </ModalContent>
