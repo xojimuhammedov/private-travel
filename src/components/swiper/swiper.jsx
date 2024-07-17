@@ -45,6 +45,7 @@ export default function App() {
         </p>
         <p className="service-text">• {t("Rent car  ")}</p>
         <p className="service-text">• {t("Rent apartment for longer stays")}</p>
+        <p className="service-text">• {t("Train tickets")}</p>
       </div>
     </>
   );

@@ -97,7 +97,7 @@
   margin: 15px 0;
 }
 
-.zomin-list img{
+.zomin-list img {
   width: 280px;
 }
 
@@ -115,8 +115,7 @@
     align-items: center;
   }
 
-  .zomin-list img{
+  .zomin-list img {
     width: 48%;
   }
-  
 }

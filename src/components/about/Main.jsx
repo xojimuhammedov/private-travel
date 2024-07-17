@@ -20,6 +20,23 @@ import FourteenImage from "../../img/IMG_5545.JPG";
 import FiveteenImage from "../../img/IMG_5547.JPG";
 import SixteenImage from "../../img/IMG_5548.JPG";
 
+
+import OneImage1 from "../../img/1.JPG";
+import TwoImage2 from "../../img/2.JPG";
+import ThreeImage3 from "../../img/3.JPG";
+import FourImage4 from "../../img/4.JPG";
+import FiveImage5 from "../../img/5.JPG";
+import SixImage6 from "../../img/6.JPG";
+import SevenImage7 from "../../img/7.JPG";
+import EightImage8 from "../../img/8.JPG";
+import NineImage9 from "../../img/9.JPG";
+import TenImage10 from "../../img/10.JPG";
+import ElevenImage11 from "../../img/11.JPG";
+import TwelfImage12 from "../../img/12.JPG";
+import ThirsteenImage13 from "../../img/13.JPG";
+import FourteenImage14 from "../../img/14.JPG";
+import FiveteenImage15 from "../../img/15.JPG";
+
 function Main() {
   const { t } = useTranslation();
   return (
@@ -52,6 +69,21 @@ function Main() {
             <img className="gallery-image" src={FourteenImage} alt="" />
             <img className="gallery-image" src={FiveteenImage} alt="" />
             <img className="gallery-image" src={SixteenImage} alt="" />
+            <img className="gallery-image" src={OneImage1} alt="" />
+            <img className="gallery-image" src={TwoImage2} alt="" />
+            <img className="gallery-image" src={ThreeImage3} alt="" />
+            <img className="gallery-image" src={FourImage4} alt="" />
+            <img className="gallery-image" src={FiveImage5} alt="" />
+            <img className="gallery-image" src={SixImage6} alt="" />
+            <img className="gallery-image" src={SevenImage7} alt="" />
+            <img className="gallery-image" src={EightImage8} alt="" />
+            <img className="gallery-image" src={NineImage9} alt="" />
+            <img className="gallery-image" src={TenImage10} alt="" />
+            <img className="gallery-image" src={ElevenImage11} alt="" />
+            <img className="gallery-image" src={TwelfImage12} alt="" />
+            <img className="gallery-image" src={ThirsteenImage13} alt="" />
+            <img className="gallery-image" src={FourteenImage14} alt="" />
+            <img className="gallery-image" src={FiveteenImage15} alt="" />
           </div>
         </div>
       </div>
