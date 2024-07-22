@@ -35,15 +35,15 @@ export default function App() {
         <p className="service-text">
           • {t("All types of transportation, transfer ")}
         </p>
-        <p className="service-text">• {t("Meeting at the airport ")}</p>
-        <p className="service-text">• {t("Local guide as driver ")}</p>
+        <p className="service-text">• {t("Meeting at the airport")}</p>
+        <p className="service-text">• {t("Local guide as driver")}</p>
         <p className="service-text">
           • {t("City tour and mountain experience ")}
         </p>
         <p className="service-text">
-          • {t("Consulting for business travellers  ")}
+          • {t("Consulting for business travellers")}
         </p>
-        <p className="service-text">• {t("Rent car  ")}</p>
+        <p className="service-text">• {t("Rent car")}</p>
         <p className="service-text">• {t("Rent apartment for longer stays")}</p>
         <p className="service-text">• {t("Train tickets")}</p>
       </div>
